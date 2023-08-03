@@ -1,0 +1,23 @@
+.skillCard {
+  transition: transform 0.3s ease;
+   border: 1px solid #476990;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.skillCard:hover {
+  transform: scale(1.05);
+}
+
+.icon-size-lg {
+  font-size: 32px; /* Modifier la taille selon vos préférences */
+  max-width: 550px;
+}
+.zoom-effect {
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1);
+}
